@@ -13,12 +13,10 @@
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  animation: frame-appear 0.5s ease-in forwards;
 }
 
 .picture img {
   max-width: 30vw;
-  animation: photos-slide-in .7s ease-in forwards;
 }
 
 @media (max-width: 600px) {
@@ -33,42 +31,10 @@
   font-style: italic;
   margin-block-start: 0.5rem;
   margin-block-end: 0.7rem;
-  animation: photos-slide-in .7s ease-in forwards;
 }
 
-@keyframes photos-slide-in {
-  0%{
-    opacity: 0;
-    transform: translateX(500%);
-  }
 
-  50%{
-    opacity: 0.4;
-    transform: translateX(250%);
-  }
 
-  100%{
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
-@keyframes frame-appear {
-  0%{
-    opacity: 0;
-  }
-
-  25%{
-    opacity: 0.1;
-  }
-
-  50%{
-    opacity: 0.4;
-  }
-
-  100%{
-    opacity: 1;
-  }
-}
 
 

@@ -41,7 +41,7 @@ function PhotosProvider(props) {
       setError(err.message);
     }
     setLoading(false);
-    window.scrollTo(0, 0);
+    window.scroll(0,0)
   };
 
   function changePhotoListMountState(bol) {

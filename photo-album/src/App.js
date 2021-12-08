@@ -6,7 +6,6 @@ const Layout = React.lazy(() => import("./components/layout/Layout"));
 const SearchPhotos = React.lazy(() => import("./pages/SearchPhotos"));
 const PhotoAlbum = React.lazy(() => import("./pages/PhotoAlbum"));
 
-
 function App() {
   return (
     <Suspense fallback = {<LoadingSpinner/>}>

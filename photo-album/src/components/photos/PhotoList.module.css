@@ -1,0 +1,19 @@
+.ul {
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actions div{
+    padding: 0 1rem;
+}
+

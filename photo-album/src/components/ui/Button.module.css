@@ -1,0 +1,26 @@
+div button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid brown;
+    background-color: white;
+    font-weight: 600;
+    color: brown;
+    transition: all 0.2s;
+}
+
+.actions button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.actions button:active{
+    transform: scale(1.1);
+}
+
+button:disabled {
+    color: gray;
+    border: none;
+    opacity: 0.5;
+}
